@@ -1,15 +1,11 @@
-The main classes, functions, and methods to be used are:
+The main classes and functions to be implemented will be:
 
-1. DocumentUploader: This class will have the method `uploadDocument(file)` which will handle the upload of documents to the server. 
+1. `ResumeUpload`: This class will be responsible for handling the file upload and parsing the uploaded resumes.
 
-2. DocumentValidator: This class will have the method `validateDocument(file)` which will handle the validation of the uploaded documents.
+2. `handle_upload(file)`: This function will take in a file as an argument and handle the uploading process. It will be a method within the `ResumeUpload` class.
 
-3. DocumentEncryptor: This class will have the method `encryptDocument(file)` which will handle the encryption of the documents.
+3. `parse_resume(file)`: This function will take in a file as an argument and parse the uploaded resumes to extract relevant information. It will be a method within the `ResumeUpload` class.
 
-4. DocumentDecryptor: This class will have the method `decryptDocument(file)` which will handle the decryption of the documents.
+Now, let's start with the code implementation. We will be using Python and the Flask framework for this task.
 
-5. DocumentAnalyzer: This class will have the method `analyzeDocument(file)` which will handle the extraction and analysis of the content of the documents.
-
-Now, let's proceed to write the code for these classes and methods. 
-
-### package.json
+resume_upload.py

@@ -1,3 +1,3 @@
 #!/bin/bash
-npm install
-npm start
+export FLASK_APP=resume_upload.py
+flask run
